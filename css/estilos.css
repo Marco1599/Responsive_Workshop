@@ -1,0 +1,117 @@
+.header{
+    background-color: #FFFE00;
+}
+
+.menu{
+    background-color: #FF8F00;
+}
+
+.examples{
+    background-color: #003CFF;
+    color: #fff;
+}
+
+.tutorial{
+    background-color: #003CFF;
+    color: #fff;
+}
+
+.tools{
+    background-color: #003CFF;
+    color: #fff;
+}
+
+.pie_pagina{
+    background-color: #69FF00;
+}
+
+@media only screen and (max-width: 936px) {
+	.header{
+        text-align: center;
+    }
+
+    div{
+        border-radius: 10px;
+        display: block;
+    }
+
+    .menu select{
+        display: none;
+    }
+
+    .menu ul{
+        list-style: none;
+    }
+
+    .menu{
+        float: left;
+        width: 20%;
+    }
+
+    .examples{
+        float: left;
+        margin-left: 1%;
+        width: 40%;
+        padding-left: 1%;
+    }
+
+    .tutorial{
+        float: left;
+        margin-left: 1%;
+        width: 35%;
+        padding-left: 1%;
+    }
+
+    .tools{
+        float: left;
+        margin-left: 1%;
+        width: 35%;
+        margin: 2% 0% 0% 1%;
+        padding-left: 1%;
+        margin-bottom: 2%;
+    }
+
+    .pie_pagina{
+        clear: both;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	.header{
+        text-align: left;
+    }
+
+    div{
+        border-radius: 10px;
+        display: block;
+    }
+
+    .menu ul{
+        display: none;
+    }
+
+    .menu select{
+        display: inline;
+    }
+
+    .menu{
+        width: 100%;
+    }
+
+    .examples{
+        width: 99%;
+        margin: 1% 0% 1% 0%;
+    }
+
+    .tutorial{
+        width: 99%;
+        margin: 1% 0% 1% 0%;
+    }
+
+    .tools{
+        width: 99%;
+        margin: 1% 0% 1% 0%;
+
+    }
+
+}
